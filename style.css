@@ -1,0 +1,190 @@
+section{
+    padding:100px 0;
+}
+
+/* feature-heading style */
+.featureHeading-size{
+    color:#3B4045;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 40px;
+}
+/* hero-section */
+.hero-text{
+    display:block;
+    margin-top:40px;
+    .font-size-60{
+        color:#3B4045;
+        font-size: 60px;
+        line-height: 1.2;
+    }
+    .text-center{
+        text-align: center;
+        align-self: center;
+       
+    }
+    
+    .btn-main{
+        color:white;
+        background-color: #F9A743;
+        padding:15px 40px;
+        font-size:20px;
+        box-shadow: 0 15px 40px rgba(249, 167, 68, 0.5);
+    }
+    
+}
+
+/* Features section */
+.features-section{
+    .mb-40{
+        margin-bottom:40px;
+    }
+    .text-center{
+        text-align: center;
+        align-self: center;
+       
+    }
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+    }
+ 
+
+}
+/* design info section */
+.design-info{
+    background-color: #F9A743;
+    .font-size-60{
+        color:#3B4045;
+        font-size: 35px;
+        line-height: 1.2;
+    }
+    .text-md-left{
+        text-align:left !important;
+        padding:10px;
+    }
+}
+   
+ 
+    /* why choose */
+.why-choose{
+    .check-btn{
+        color:white;
+        background-color: #F9A743;
+        padding:15px 40px;
+        font-size:18px;
+        box-shadow: 0 15px 40px rgba(249, 167, 68, 0.5);
+    } 
+    .font-size-60{
+        color:#3B4045;
+        font-size: 35px;
+        line-height: 1.2;
+    }  
+}
+
+   /* why choose2 */
+   .why-choose2{
+    .check-btn{
+        color:white;
+        background-color: #F9A743;
+        padding:15px 40px;
+        font-size:18px;
+        box-shadow: 0 15px 40px rgba(249, 167, 68, 0.5);
+    } 
+    .font-size-60{
+        color:#3B4045;
+        font-size: 35px;
+        line-height: 1.2;
+    } 
+    .order-2{
+        text-align:left !important;
+        order:2;
+    } 
+}
+
+/* form-section */
+.form_section{
+    position: relative;
+    .form-content{
+        width: 70%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        .btn-color{
+            background-color:#F9A743;
+            color:white;
+        }
+    }
+    .form-image{
+        img{
+            height: 400px;
+            width: 100%;
+            object-fit: cover;
+            opacity:0.8;
+        }
+    }
+}
+
+ /* grab-productBtn  */
+.grab-btn{
+    .btn-main{
+        color:white;
+        background-color: #F9A743;
+        padding:15px 40px;
+        font-size:20px;
+        box-shadow: 0 15px 40px rgba(249, 167, 68, 0.5);
+    }
+}
+
+/* footer section */
+.footer{
+    background-color:#F4F4F4;
+    .block a{
+        text-decoration:none;
+        color:#3B4045;
+        font-size:18px;
+    }
+    .list-inline-item{
+        margin:20px;
+        font-size:20px;
+        font-weight: 600;
+    }
+}
+
+
+/* why choose2 */
+@media (min-width: 768px){
+    .order-md-1{
+        order:1;
+    }
+    
+}
+
+@media (min-width: 768px){
+    .text-md-left{
+        text-align:left !important;
+    }
+    
+} 
+ /* feature section */
+@media (min-width: 768px) {
+    .features-section{
+        .col-md-4 {
+            -ms-flex: 0 0 33.333333%;
+            flex: 0 0 33.333333%;
+            max-width: 33.333333%;
+        }
+        .text-center{
+            text-align: center;
+            align-self: center;
+           
+        }
+        .text-md-left{
+            text-align:left !important;
+        }
+    }
+    
+}
+
